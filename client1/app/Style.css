@@ -1,0 +1,428 @@
+.iphone-mini1 {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+input, select, textarea{
+  color: white;
+}
+
+.iphone-mini1 .div {
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgb(31, 66, 71) 0%,
+    rgb(13.3, 28.98, 34.79) 56.18%,
+    rgb(9, 20, 26) 100%
+  );
+  width: 375px;
+  height: 812px;
+  position: relative;
+}
+
+.iphone-mini1 .overlap {
+  position: absolute;
+  width: 327px;
+  height: 51px;
+  top: 212px;
+  left: 23px;
+  background-color: #ffffff0f;
+  border-radius: 9px;
+  border-width: 0cap;
+}
+
+.iphone-mini1 .overlap-group {
+  position: absolute;
+  width: 327px;
+  height: 51px;
+  top: 278px;
+  left: 23px;
+  background-color: #ffffff0f;
+  border-radius: 9px;
+  border-width: 0cap;
+}
+
+.iphone-mini1 .overlap-group2 {
+  position: absolute;
+  width: 327px;
+  height: 51px;
+  top: 344px;
+  left: 23px;
+  background-color: #ffffff0f;
+  border-radius: 9px;
+  border-width: 0cap;
+}
+
+.iphone-mini1 .text-wrapper {
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff66;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+
+.iphone-mini1 .vector {
+  position: absolute;
+  width: 20px;
+  height: 17px;
+  top: 17px;
+  left: 289px;
+}
+
+.iphone-mini1 .numeric-keyboard {
+  position: absolute;
+  width: 375px;
+  height: 291px;
+  top: 521px;
+  left: 0;
+  background-color: #151515d9;
+  backdrop-filter: blur(108.73px) brightness(100%);
+  -webkit-backdrop-filter: blur(108.73px) brightness(100%);
+}
+
+.iphone-mini1 .home-indicator {
+  position: absolute;
+  width: 375px;
+  height: 34px;
+  top: 257px;
+  left: 0;
+}
+
+.iphone-mini1 .home-indicator-2 {
+  position: relative;
+  width: 134px;
+  height: 5px;
+  top: 21px;
+  left: 121px;
+  background-color: var(--label-colordarkprimary);
+  border-radius: 100px;
+}
+
+.iphone-mini1 .row {
+  display: flex;
+  width: 363px;
+  height: 46px;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.iphone-mini1 .key {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  background-color: #6b6b6b;
+  border-radius: 4.6px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.iphone-mini1 .letter {
+  position: absolute;
+  width: 118px;
+  height: 26px;
+  top: 1px;
+  left: 0;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.29px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-mini1 .label {
+  position: absolute;
+  width: 118px;
+  top: 27px;
+  left: 0;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: normal;
+}
+
+.iphone-mini1 .row-2 {
+  display: flex;
+  width: 363px;
+  height: 46px;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 59px;
+  left: 6px;
+}
+
+.iphone-mini1 .row-3 {
+  display: flex;
+  width: 363px;
+  height: 46px;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 112px;
+  left: 6px;
+}
+
+.iphone-mini1 .row-4 {
+  display: flex;
+  width: 363px;
+  height: 46px;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 165px;
+  left: 6px;
+}
+
+.iphone-mini1 .key-2 {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.iphone-mini1 .letter-2 {
+  position: absolute;
+  width: 118px;
+  height: 30px;
+  top: 7px;
+  left: 0;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--label-colordarkprimary);
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.29px;
+  line-height: normal;
+}
+
+.iphone-mini1 .union {
+  position: absolute;
+  width: 23px;
+  height: 17px;
+  top: 14px;
+  left: 47px;
+}
+
+.iphone-mini1 .text-wrapper-2 {
+  position: absolute;
+  top: 157px;
+  left: 41px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-mini1 .no-account-register {
+  position: absolute;
+  width: 163px;
+  height: 13px;
+  top: 457px;
+  left: 107px;
+}
+
+.iphone-mini1 .component {
+  position: absolute;
+  width: 331px;
+  height: 48px;
+  top: 354px;
+  left: 22px;
+}
+
+.iphone-mini1 .group {
+  width: 333px;
+  height: 48px;
+}
+
+.iphone-mini1 .box {
+  width: 327px;
+  height: 51px;
+}
+
+.iphone-mini1 .box .rectangle {
+  /* position: fixed; */
+  width: 327px;
+  height: 51px;
+  /* top: 0;
+  left: 0; */
+  background-color: #ffffff0f;
+  border-radius: 9px;
+}
+
+.iphone-mini1 .get-OTP-wrapper {
+  display: flex;
+  width: 331px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: linear-gradient(108deg, #62CDCB 24.88%, #4599DB 78.49%);
+}
+
+.iphone-mini1 .get-OTP {
+  position: absolute;
+  top: 13px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.23px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-mini1 .system-ios-statusbar {
+  position: fixed;
+  width: 375px;
+  height: 44px;
+  top: 0;
+  left: -1px;
+}
+
+.iphone-mini1 .battery {
+  position: absolute;
+  width: 24px;
+  height: 11px;
+  top: 17px;
+  left: 332px;
+}
+
+.iphone-mini1 .wifi {
+  position: absolute;
+  width: 15px;
+  height: 11px;
+  top: 17px;
+  left: 312px;
+}
+
+.iphone-mini1 .mobile-signal {
+  position: absolute;
+  width: 17px;
+  height: 11px;
+  top: 18px;
+  left: 290px;
+}
+
+.iphone-mini1 .time-style {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  top: 12px;
+  left: 17px;
+}
+
+.iphone-mini1 .text-wrapper-3 {
+  position: absolute;
+  width: 54px;
+  height: 18px;
+  top: 1px;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-mini1 .system-ios {
+  position: fixed;
+  width: 375px;
+  height: 34px;
+  top: 778px;
+  left: 0;
+}
+
+.iphone-mini1 .group-2 {
+  position: relative;
+  height: 17px;
+  top: 81px;
+  left: 18px;
+}
+
+
+
+.iphone-mini1 .group-2 .Johndoe {
+  text-align: center;
+  color: white;
+  font-size: 14;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word ;
+}
+
+.iphone-mini1 .group-2 .img3 {
+  position: absolute;
+  width: 9px;
+  height: 16px;
+  top: 1px;
+  right: 40px;
+}
+
+
+.iphone-mini1 .img {
+  position: absolute;
+  width: 9px;
+  height: 16px;
+  top: 1px;
+  left: -1px;
+}
+
+.iphone-mini1 .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-mini1 .text-register {
+  background: var(--Golden, linear-gradient(74deg, #94783E -6.8%, #F3EDA6 16.76%, #F8FAE5 30.5%, #FFE2BE 49.6%, #D5BE88 78.56%, #F8FAE5 89.01%, #D5BE88 100.43%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.iphone-mini1 .text-noAccount {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
